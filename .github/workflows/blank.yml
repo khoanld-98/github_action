@@ -36,6 +36,7 @@ jobs:
         run: |
           ls -la
           git status
+          git fetch --all
           git checkout staging
           git status
           git branch -a
