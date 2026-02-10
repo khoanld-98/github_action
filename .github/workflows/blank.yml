@@ -40,4 +40,6 @@ jobs:
           git checkout staging
           git status
           git branch -a
-          git diff --name-only staging main
+          echo -------------------------diff----------------------
+          git diff --name-only main
+           echo -------------------------diff----------------------
